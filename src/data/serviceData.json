@@ -1,0 +1,22 @@
+[
+    { "id": 1, 
+    "name": "Bath",
+    "description": "A full bath for your dog.", 
+    "price": "$30"},
+    { "id": 2,
+    "name": "Trimming",
+    "description": "A full body trim.", 
+    "price": "$40"},
+    { "id": 3,
+    "name": "Pedicure",
+    "description": "Nail trimming for your dog.", 
+    "price": "$15"},
+    { "id": 4,
+    "name": "Flea Treatment",
+    "description": "Keep your dog flea-free.", 
+    "price": "$25"},
+    { "id": 5,
+    "name": "Full Groom",
+    "description": "A complete grooming service for your dog", 
+    "price": "$60"}
+]

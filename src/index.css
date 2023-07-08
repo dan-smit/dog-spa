@@ -1,3 +1,31 @@
+@font-face {
+  font-family: 'PhilliesFont';
+  src: local('PhilliesFont'),
+    url('./fonts/MLBPhiladelphiaPhillies1980.ttf') format("truetype");
+}
+
+/* Set the primary color to powder blue */
+:root {
+  --primary-color: #9eb7d4;
+}
+
+/* Override Bootstrap styles for the navbar */
+.navbar {
+  background-color: #9eb7d4;
+  font-family: "PhilliesFont", sans-serif;
+}
+
+/* Apply the 1980's Phillies font to headings */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "PhilliesFont", sans-serif;
+}
+
+
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
